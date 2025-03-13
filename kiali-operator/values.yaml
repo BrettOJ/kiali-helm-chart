@@ -107,3 +107,6 @@ cr:
       image_name: quay.io/kiali/kiali
       image_pull_policy: "IfNotPresent"
       image_version: v2.6
+
+    auth:
+      strategy: anonymous
