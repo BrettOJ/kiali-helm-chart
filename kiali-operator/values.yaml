@@ -103,3 +103,7 @@ cr:
   spec:
     deployment:
       cluster_wide_access: true
+      image_digest: ""
+      image_name: quay.io/kiali/kiali
+      image_pull_policy: "IfNotPresent"
+      image_version: v2.6
