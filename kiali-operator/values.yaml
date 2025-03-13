@@ -59,7 +59,7 @@ allowAdHocKialiNamespace: true
 # to the image the operator will install by default. In other words, it will allow the
 # Kiali CR spec.deployment.image_name and spec.deployment.image_version to be configured by the user.
 # You may want to disable this if you do not want users to install their own Kiali images.
-allowAdHocKialiImage: false
+allowAdHocKialiImage: true
 
 # allowAdHocOSSMConsoleImage tells the operator to allow a user to be able to install a custom OSSMC image as opposed
 # to the image the operator will install by default. In other words, it will allow the
