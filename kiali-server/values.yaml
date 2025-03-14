@@ -103,6 +103,10 @@ external_services:
     enabled: true
   istio:
     root_namespace: ""
+  prometheus:
+    url: "http://prometheus.prometheus.svc.cluster.local:9090"
+  grafana:
+    url: "http://grafana.grafana.svc.cluster.local:3000"
 
 identity: {}
   #cert_file:
