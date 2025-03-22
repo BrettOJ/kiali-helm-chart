@@ -27,7 +27,7 @@ clustering:
   autodetect_secrets:
     enabled: true
     label: "kiali.io/multiCluster=true"
-  clusters: []
+  clusters: [cluster1, cluster2]
 
 deployment:
   additional_service_yaml: {}
