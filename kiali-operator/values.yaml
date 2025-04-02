@@ -110,12 +110,4 @@ cr:
 
     auth:
       strategy: anonymous
-    affinity:
-      node:
-        requiredDuringSchedulingIgnoredDuringExecution:
-          nodeSelectorTerms:
-          - matchExpressions:
-            - key: kubernetes.io/hostname
-              operator: In
-              values:
-              - jk8002
+
